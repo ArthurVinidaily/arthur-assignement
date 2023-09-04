@@ -100,7 +100,7 @@ To see all handle paths:
 GET /actuator
 ```
 
-Feel free to add the metrics you need.
+Feel free to add the metrics you may need.
 
 #### Documentation
 
@@ -118,7 +118,7 @@ XspeedIt is an import/export company that has automated its packaging process. T
 
 ### Algorithm
 
-The algorithm takes a string of article sizes (e.g., "163841689525773") and optimally packs them into cartons, minimizing carton usage. It is a bin packing problems. We have tested 4 classics "heuristiques" algorithms : Next fit (which is the classic one), First FIT, Best Fit and Worst Fit. The "exact" algorithms like linear regressions have been implemented because not very appropriate for our use case. Here are the optimization factor and complexity for these algorithms: 
+The algorithm takes a string of items sizes (e.g., "163841689525773") and optimally packs them into cartons, minimizing carton usage. It is a bin packing problems. We have tested 4 classics "heuristiques" algorithms : Next fit (which is the classic one), First FIT, Best Fit and Worst Fit. "Exact" algorithms like linear regressions have been implemented because not very appropriate for our use case. Here are some optimization factors and complexity for these algorithms: 
 | Algorithm       | Approximation Guarantee | Worst Case Complexity      |
 |-----------------|-------------------------|---------------------------|
 | Next-fit (NF)   | ≤ 2*OPT - 1             | O(L)                    |
