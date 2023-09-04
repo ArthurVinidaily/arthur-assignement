@@ -95,7 +95,7 @@ To monitor the health of our API, we are using Prometheus. To access all the met
 ```http
 GET /actuator/prometheus
 ```
-To see all handle path:
+To see all handle paths:
 ```http
 GET /actuator
 ```
